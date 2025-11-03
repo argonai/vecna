@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "d641b8a6847a2b07",
+    "type": "split",
+    "children": [
+      {
+        "id": "11580fcedc9947e5",
+        "type": "tabs",
+        "dimension": 54.4496487119438,
+        "children": [
+          {
+            "id": "4d53d1e40c20e256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Spell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spell"
+            }
+          },
+          {
+            "id": "7c9140cacc4579ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lyra.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lyra"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "02e440629820fd16",
+        "type": "tabs",
+        "dimension": 45.550351288056206,
+        "children": [
+          {
+            "id": "3fdd99358e6f4adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lyra.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lyra"
+            }
+          },
+          {
+            "id": "9e3f317b1a0487a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "test"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4f39627bdbb64b05",
+    "type": "split",
+    "children": [
+      {
+        "id": "02bc5cd1df9a09e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37f664e2f2c022d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8d1efa5174e2d592",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c68b3c58e0a52b66",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6ddd30630d30a3ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f8026c0658d1e4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c795b480ca67ea57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lyra.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lyra"
+            }
+          },
+          {
+            "id": "779024b9bbe74c2b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lyra.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lyra"
+            }
+          },
+          {
+            "id": "3a2083fcd7085262",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a61fadabcae0137",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lyra.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lyra"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "7c9140cacc4579ca",
+  "lastOpenFiles": [
+    "Lyra.md",
+    "Templates/Spell.md",
+    "Descriptions/Armor model.md",
+    "Descriptions",
+    "Templates/Buttons.md",
+    "test.md",
+    "imgs/victor-tan-porksin-merlin-edit2-hr.jpg",
+    "imgs/sam-santala-samsantala-dndcommission-alearavenblade-x-small.jpg",
+    "Templates/Trait.md",
+    "Lyra(test).md",
+    "Templates/Actions.md",
+    "Templates/Character sheet.md",
+    "imgs/Artificer.jpg",
+    "imgs",
+    "New folder",
+    "Templates",
+    "templater-obsidian.md",
+    "for TTRPG.md",
+    "Welcome.md"
+  ]
+}

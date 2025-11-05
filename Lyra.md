@@ -2,15 +2,17 @@
 alias: Lyra
 tags: Entity/Player-Character, Multiverse/D&D
 cssclass: hcl, table, t-c, readable
-hp:
+hp: 86
 ac:
 modifier: INT
 STR: 8
 DEX: 16
 CON: 14
-INT: 18
+INT: 20
 WIS: 12
 CHA: 8
+LVL: 12
+proficiency: 4
 ---
 %%
 Creator:: Argon
@@ -39,15 +41,15 @@ Adventure_Diary::
 # Stats
 HP | AC | Speed | Initiative |
 :---:|:---:|:---:|:---:|
- |14 + DEX max 2|35ft | |
+ `=this.hp` |14 + DEX max 2|35ft | `= floor((this.DEX - 10) / 2)`|
 
 Hit Dice | Proficiency Bonus | Temp HP | 
 :---:|:---:|:---:|
- d8|+4|0|
+ d8|`="+" + this.proficiency`|0|
 
 Senses | \# |
 ---|---|
-**Passive Perception** ||
+**Passive Perception** |`= 10 + floor((this.WIS - 10) / 2)`|
 
 
 |Advantage     |
@@ -63,30 +65,30 @@ STR | DEX | CON | INT | WIS | CHA | |
 :---:|:----:|:----:|:---:|:---:|:---:|---|
 `= this.STR` | `= this.DEX` | `= this.CON` | `= this.INT` | `= this.WIS` | `= this.CHA` | **Stats** |
 `= floor((this.STR - 10) / 2)` | `= floor((this.DEX - 10) / 2)` | `= floor((this.CON - 10) / 2)` | `= floor((this.INT - 10) / 2)` | `= floor((this.WIS - 10) / 2)` | `= floor((this.CHA - 10) / 2)` | **Modifier** |
-\# | | | | | | **Saving Throw** |
+`= floor((this.STR - 10) / 2)` | `= floor((this.DEX - 10) / 2)` | `= floor((this.CON - 10) / 2) +this.proficiency` | `= floor((this.INT - 10) / 2) + this.proficiency` | `= floor((this.WIS - 10) / 2)` | `= floor((this.CHA - 10) / 2)` | **Saving Throw** |
 
 
 ### Skills
 \# | Skill | Ability | Proficient
 :--:|-----|:------:|:-:|
-.| Acrobatics | DEX |
-.| Animal Handling | WIS |
-.| Arcana | INT |
-.| Athletics | STR |
-.| Deception | CHA |
-.| History | INT |
-.| Insight | WIS | X
-.| Intimidation | CHA |
-.| Investigation | INT |
-.| Medicine | WIS |
-.| Nature | WIS |
-.| Perception | WIS | X
-.| Performance | CHA |
-.| Persuasion | CHA |
-.| Religion | INT | X
-.| Sleight of Hand | DEX |
-.| Stealth | DEX |
-.| Survival | WIS |
+`=floor((this.DEX -10) /2)`| Acrobatics | DEX |
+`=floor((this.WIS -10) /2)`| Animal Handling | WIS |
+`=floor((this.INT -10) /2) + this.proficiency`| Arcana | INT | X
+`=floor((this.STR -10) /2)`| Athletics | STR |
+`=floor((this.CHA -10) /2)`| Deception | CHA |
+`=floor((this.INT -10) /2)`| History | INT |
+`=floor((this.WIS -10) /2) + this.proficiency`| Insight | WIS | X
+`=floor((this.CHA -10) /2)`| Intimidation | CHA |
+`=floor((this.INT -10) /2) + this.proficiency`| Investigation | INT | X
+`=floor((this.WIS -10) /2)`| Medicine | WIS |
+`=floor((this.WIS -10) /2)`| Nature | WIS |
+`=floor((this.WIS -10) /2) + this.proficiency`| Perception | WIS | X
+`=floor((this.CHA -10) /2)`| Performance | CHA |
+`=floor((this.CHA -10) /2)`| Persuasion | CHA |
+`=floor((this.INT -10) /2)`| Religion | INT | X
+`=floor((this.DEX -10) /2)`| Sleight of Hand | DEX |
+`=floor((this.DEX -10) /2)`| Stealth | DEX |
+`=floor((this.WIS -10) /2)`| Survival | WIS |
 
 # Traits/Features
 
@@ -117,13 +119,31 @@ STR | DEX | CON | INT | WIS | CHA | |
 ###### Right tool for the job
 **with thieves' tools or artisan's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet of you**
 
+###### Tool Expertise
+**at 6th level**
+- proficiency bonus doubled for any ability check that uses proficiency with a tool
+###### Flash of genius
+- [[Flash of genius]]
+###### Armor Modifications
+
+- [[Armor Modifications]]
+###### Spell-Storing Item
+
+- [[Spell-Storing Item]]
+###### Planar Wanderer
+
+- [[Planar wanderer]]
 `button-trait`
 
 ## Infusions
 - Replicate magic item: Bag of holding
 - Enhanced Arcane Focus (`+2` to attack rolls)
 - Enhanced Defense (`+2` AC)
-- Replicate magic item: Goggles of night
+- Replicate magic item: Goggles of night -> maybe retrain at level 8 idk yet
+- Spell-Refueling Ring
+- Boots of the Winding Path
+- Replicate magic item: Ring of Mind Shielding
+- and another level 8 one idk yet
 ## Proficiencies
 - Perception
 - Insight
@@ -150,11 +170,22 @@ Type | To Hit | Hit | Reach | Targets |
 `button-action`
 
 ## Spells
+Max prepared: `=this.LVL + floor((this.INT - 10) / 2)`
+- Spell save DC: `=8 + this.proficiency + floor((this.INT -10) /2)`
+- Spell attack: `=this.proficiency + floor((this.INT -10) /2)`
+
+|  Spell Slot Level   |1| 2 | 3 | 4     |   5   | 
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  Max  |   4   |   3   |   3   |   0   |   0   |
+|current|   4   |   3   |   3   |   0   |   0   |
+
+
 |      Name      | Level | Prepared | Conditional? | 
 | :------------: | :---: |:-------: |:-----------: | 
 | Dancing lights |   0   |          |              |     
 |   Fire Bolt    |   0   |          |              |     
 |    Mending     |   0   |          |              |     
+|    Mage Hand     |   0   |          |              |   
 |  Feather fall  |   1   |    X      |              |     
 |  Detect Magic  |   1   |          | Y, long rest  |
 | Absorb elements| 1     |     X     |              |
@@ -165,6 +196,12 @@ Type | To Hit | Hit | Reach | Targets |
 |shatter |2 |always | |
 | Heat metal| 2| x| |
 | Invisibility |2 |x | |
+| Lesser restoration |2 |x | |
+|Faerie fire |1 | x| |
+|Hypnotic pattern |3 |always | |
+|lightning bolt |3 |always | |
+| Dispel Magic|3 |x | |
+|Protection from Energy |3 |x | |
  `button-spell`
  
 
@@ -173,7 +210,8 @@ CP | SP | EP | GP | PP |
 :---:|:---:|:---:|:---:|:---:|
  |||||
 
-- 
+- breastplate
+- weapons idk
 
 # Personality
 ###### Personality Traits
@@ -185,4 +223,5 @@ CP | SP | EP | GP | PP |
 ###### Flaws
 # Appearance
 Mechanical right arm
-Tattoos all over body (voor armor magic te guiden)
+Tattoos all over body (voor armor magic te guiden)(denk phyre van vtmb2 see below)
+![[tim-turner-bloodlines-2-phyre-01-1.jpg]]

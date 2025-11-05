@@ -48,14 +48,15 @@
             "id": "3fdd99358e6f4adb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Lyra.md",
-                "mode": "source",
-                "source": true
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Lyra"
+              "icon": "diff",
+              "title": "Diff: app.json"
             }
           },
           {
@@ -231,9 +232,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7c9140cacc4579ca",
+  "active": "3fdd99358e6f4adb",
   "lastOpenFiles": [
     "Lyra.md",
+    "conflict-files-obsidian-git.md",
+    "imgs/tim-turner-bloodlines-2-phyre-01-1.jpg",
+    "hp rolling.md",
+    "Descriptions/Spell-Storing Item.md",
+    "Descriptions/Planar wanderer.md",
+    "Descriptions/Flash of genius.md",
+    "Descriptions/Armor Modifications.md",
     "Templates/Spell.md",
     "Descriptions/Armor model.md",
     "Descriptions",

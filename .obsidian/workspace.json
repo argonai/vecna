@@ -6,7 +6,6 @@
       {
         "id": "11580fcedc9947e5",
         "type": "tabs",
-        "dimension": 54.4496487119438,
         "children": [
           {
             "id": "4d53d1e40c20e256",
@@ -40,37 +39,21 @@
         "currentTab": 1
       },
       {
-        "id": "02e440629820fd16",
+        "id": "035f928faf9bd851",
         "type": "tabs",
-        "dimension": 45.550351288056206,
         "children": [
           {
-            "id": "3fdd99358e6f4adb",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: app.json"
-            }
-          },
-          {
-            "id": "9e3f317b1a0487a2",
+            "id": "ecc24f6d7715372e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "Lyra.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "Lyra"
             }
           }
         ]
@@ -204,7 +187,7 @@
             }
           },
           {
-            "id": "7b04201b644517f8",
+            "id": "08fc7527810f9b4f",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -222,33 +205,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3fdd99358e6f4adb",
+  "active": "ecc24f6d7715372e",
   "lastOpenFiles": [
+    "imgs/vtmb2-phyres-mark-v0-voynd21v8d0g1.webp",
+    "Lyra.pdf",
+    "Descriptions/Planar wanderer.md",
     "Lyra.md",
-    "conflict-files-obsidian-git.md",
-    "imgs/tim-turner-bloodlines-2-phyre-01-1.jpg",
     "hp rolling.md",
     "Descriptions/Spell-Storing Item.md",
-    "Descriptions/Planar wanderer.md",
-    "Descriptions/Flash of genius.md",
+    "imgs/tim-turner-bloodlines-2-phyre-01-1.jpg",
     "Descriptions/Armor Modifications.md",
+    "Descriptions/Flash of genius.md",
+    "test.md",
+    "imgs/victor-tan-porksin-merlin-edit2-hr.jpg",
+    "imgs/sam-santala-samsantala-dndcommission-alearavenblade-x-small.jpg",
     "Templates/Spell.md",
     "Descriptions/Armor model.md",
     "Descriptions",
     "Templates/Buttons.md",
-    "test.md",
-    "imgs/victor-tan-porksin-merlin-edit2-hr.jpg",
-    "imgs/sam-santala-samsantala-dndcommission-alearavenblade-x-small.jpg",
     "Templates/Trait.md",
     "Lyra(test).md",
     "Templates/Actions.md",

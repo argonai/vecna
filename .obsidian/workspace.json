@@ -35,30 +35,27 @@
               "icon": "lucide-file",
               "title": "Lyra"
             }
+          },
+          {
+            "id": "2114ca3b5d6aa36a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "02e440629820fd16",
         "type": "tabs",
         "dimension": 45.550351288056206,
         "children": [
-          {
-            "id": "3fdd99358e6f4adb",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: app.json"
-            }
-          },
           {
             "id": "9e3f317b1a0487a2",
             "type": "leaf",
@@ -232,7 +229,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3fdd99358e6f4adb",
+  "active": "2114ca3b5d6aa36a",
   "lastOpenFiles": [
     "Lyra.md",
     "conflict-files-obsidian-git.md",

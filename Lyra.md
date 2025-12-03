@@ -223,5 +223,5 @@ CP | SP | EP | GP | PP |
 ###### Flaws
 # Appearance
 Mechanical right arm
-Tattoos all over body (voor armor magic te guiden)(denk phyre van vtmb2 see below)
-![[tim-turner-bloodlines-2-phyre-01-1.jpg]]
+Tattoos all over body (voor armor magic te guiden)(denk phyre van vtmb2 en victor deadlock see below)
+![[vtmb2-phyres-mark-v0-voynd21v8d0g1.webp]]

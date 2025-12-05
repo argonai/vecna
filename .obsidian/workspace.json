@@ -46,14 +46,14 @@
             "id": "28d14d80d8ea8c98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Lyra.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Lyra"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -217,8 +217,9 @@
   },
   "active": "28d14d80d8ea8c98",
   "lastOpenFiles": [
-    "Descriptions/Planar wanderer.md",
     "Lyra.md",
+    "conflict-files-obsidian-git.md",
+    "Descriptions/Planar wanderer.md",
     "Descriptions/Flash of genius.md",
     "Templates/Spell.md",
     "Descriptions/Spell-Storing Item.md",

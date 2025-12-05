@@ -41,7 +41,7 @@ Adventure_Diary::
 # Stats
 HP | AC | Speed | Initiative |
 :---:|:---:|:---:|:---:|
- `=this.hp` |14 + DEX max 2|35ft | `= floor((this.DEX - 10) / 2)`|
+ `=this.hp` |14 + DEX max 2 + 2 infusion|35ft | `= floor((this.DEX - 10) / 2)`|
 
 Hit Dice | Proficiency Bonus | Temp HP | 
 :---:|:---:|:---:|
@@ -139,11 +139,11 @@ STR | DEX | CON | INT | WIS | CHA | |
 - Replicate magic item: Bag of holding
 - Enhanced Arcane Focus (`+2` to attack rolls)
 - Enhanced Defense (`+2` AC)
-- Replicate magic item: Goggles of night -> maybe retrain at level 8 idk yet
+- Replicate magic item: Goggles of night -> maybe retrain later idk
 - Spell-Refueling Ring
 - Boots of the Winding Path
 - Replicate magic item: Ring of Mind Shielding
-- and another level 8 one idk yet
+- raplicate item: necklace of adaptation
 ## Proficiencies
 - Perception
 - Insight
@@ -158,14 +158,14 @@ STR | DEX | CON | INT | WIS | CHA | |
 - Common
 - Elven
 - Celestial
-- Draconic maybe? idk not sure on the 4th
+- Abyssal
 # Actions
 
-###### Astral step
+###### Starlight step
 
-Type | To Hit | Hit | Reach | Targets |
----|:---:|:---:|---|:---:|
-**==Bonus Action==** |||30ft|self|
+Type | To Hit | Hit | Reach | Targets | uses |
+---|:---:|:---:|---|:---:|:---:|
+**==Bonus Action==** |||30ft|self|`= this.proficiency`|
 
 `button-action`
 
@@ -174,34 +174,34 @@ Max prepared: `=this.LVL + floor((this.INT - 10) / 2)`
 - Spell save DC: `=8 + this.proficiency + floor((this.INT -10) /2)`
 - Spell attack: `=this.proficiency + floor((this.INT -10) /2)`
 
-|  Spell Slot Level   |1| 2 | 3 | 4     |   5   | 
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|  Max  |   4   |   3   |   3   |   0   |   0   |
-|current|   4   |   3   |   3   |   0   |   0   |
+| Spell Slot Level |  1  |  2  |  3  |  4  |  5  |
+| :--------------: | :-: | :-: | :-: | :-: | :-: |
+|       Max        |  4  |  3  |  3  |  0  |  0  |
+|     current      |  4  |  3  |  3  |  0  |  0  |
 
 
-|      Name      | Level | Prepared | Conditional? | 
-| :------------: | :---: |:-------: |:-----------: | 
-| Dancing lights |   0   |          |              |     
-|   Fire Bolt    |   0   |          |              |     
-|    Mending     |   0   |          |              |     
-|    Mage Hand     |   0   |          |              |   
-|  Feather fall  |   1   |    X      |              |     
-|  Detect Magic  |   1   |          | Y, long rest  |
-| Absorb elements| 1     |     X     |              |
-| False Life     | 1     |     x     |              |
-| Magic Missile|1 |always | |
-|thunderwave |1 |always | |
-|mirror image |2 |always | |
-|shatter |2 |always | |
-| Heat metal| 2| x| |
-| Invisibility |2 |x | |
-| Lesser restoration |2 |x | |
-|Faerie fire |1 | x| |
-|Hypnotic pattern |3 |always | |
-|lightning bolt |3 |always | |
-| Dispel Magic|3 |x | |
-|Protection from Energy |3 |x | |
+|          Name          | Level | Prepared | Conditional? |     |
+| :--------------------: | :---: | :------: | :----------: | --- |
+|     Dancing lights     |   0   |          |              |     |
+|       Fire Bolt        |   0   |          |              |     |
+|        Mending         |   0   |          |              |     |
+|       Mage Hand        |   0   |          |              |     |
+|      Feather fall      |   1   |    X     |              |     |
+|      Detect Magic      |   1   |          | Y, long rest |     |
+|    Absorb elements     |   1   |    X     |              |     |
+|       False Life       |   1   |    x     |              |     |
+|     Magic Missile      |   1   |  always  |              |     |
+|      thunderwave       |   1   |  always  |              |     |
+|      mirror image      |   2   |  always  |              |     |
+|        shatter         |   2   |  always  |              |     |
+|       Heat metal       |   2   |    x     |              |     |
+|      Invisibility      |   2   |    x     |              |     |
+|   Lesser restoration   |   2   |    x     |              |     |
+|      Faerie fire       |   1   |    x     |              |     |
+|    Hypnotic pattern    |   3   |  always  |              |     |
+|     lightning bolt     |   3   |  always  |              |     |
+|      Dispel Magic      |   3   |    x     |              |     |
+| Protection from Energy |   3   |    x     |              |     |
  `button-spell`
  
 
@@ -212,7 +212,11 @@ CP | SP | EP | GP | PP |
 
 - breastplate
 - weapons idk
-
+# Attunements
+- Ring of mind shielding
+- Spell refueling ring
+- Boots of the winding path
+- necklace of adaptation
 # Personality
 ###### Personality Traits
 
@@ -222,6 +226,4 @@ CP | SP | EP | GP | PP |
 
 ###### Flaws
 # Appearance
-Mechanical right arm
-Tattoos all over body (voor armor magic te guiden)(denk phyre van vtmb2 en victor deadlock see below)
-![[vtmb2-phyres-mark-v0-voynd21v8d0g1.webp]]
+see pureref sheet

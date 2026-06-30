@@ -1,0 +1,3 @@
+  In Sigil, the Lady of Pain always knows. I hear all the lies whispered into all the tepid ears in the dark bedchambers of all the great manors. I see every hand that slips into an open pocket on every bustling street, and I feel the dagger that burns in the belly of every trusting fool who ever followed a glitter girl into a dark alley. No longer can I tell where Sigil begins and I end; no longer can I separate what I perceive from what the city is. I am Sigil.
+
+1. Thus are the four Pains spread through the multiverse—agony, anguish, misery, and despair—to ripen and burst and bring low the mighty and the meek alike.

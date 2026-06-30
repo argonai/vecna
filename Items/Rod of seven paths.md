@@ -1,0 +1,4 @@
+- 7 pieces
+	- [[Webs edge]] underdark, hidden safehouse for lolth worshippers
+	- [[Lambda Zenith]] ship in the astral sea torn in two sits among the stars
+	- [[Mournland]] hidden, need part from unlocated colossi, docents

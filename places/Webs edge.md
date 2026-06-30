@@ -1,0 +1,2 @@
+- [[Rod of seven paths]] fragment location
+- 

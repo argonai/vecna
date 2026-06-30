@@ -1,0 +1,4 @@
+- location of the [[Rod of seven paths]]
+- Evil mist is BACK
+- im back in the fucking building
+- Seer is BACK (i think)

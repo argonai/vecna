@@ -1,0 +1,1 @@
+- vision first night in barovia of Iuz being absorbed by [[Vecna]]

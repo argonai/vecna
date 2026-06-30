@@ -1,0 +1,2 @@
+- old ship of [[Lyra]]
+- holds one of the [[Rod of seven paths]] parts

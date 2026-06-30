@@ -32,7 +32,7 @@ Adventure_Diary::
  ||
 ----|:---:|
 **Class** | Artificer \| Armourer
-**Level** | 12
+**Level** | 13
 **Race** | Astral Elf
 **Alignment** | Neutral Good
 **Background** | Astral Drifter
@@ -176,32 +176,35 @@ Max prepared: `=this.LVL + floor((this.INT - 10) / 2)`
 
 | Spell Slot Level |  1  |  2  |  3  |  4  |  5  |
 | :--------------: | :-: | :-: | :-: | :-: | :-: |
-|       Max        |  4  |  3  |  3  |  0  |  0  |
+|       Max        |  4  |  3  |  3  |  1  |  0  |
 |     current      |  4  |  3  |  3  |  0  |  0  |
 
 
-|          Name          | Level | Prepared | Conditional? |     |
-| :--------------------: | :---: | :------: | :----------: | --- |
-|     Dancing lights     |   0   |          |              |     |
-|       Fire Bolt        |   0   |          |              |     |
-|        Mending         |   0   |          |              |     |
-|       Mage Hand        |   0   |          |              |     |
-|      Feather fall      |   1   |    X     |              |     |
-|      Detect Magic      |   1   |          | Y, long rest |     |
-|    Absorb elements     |   1   |    X     |              |     |
-|       False Life       |   1   |    x     |              |     |
-|     Magic Missile      |   1   |  always  |              |     |
-|      thunderwave       |   1   |  always  |              |     |
-|      mirror image      |   2   |  always  |              |     |
-|        shatter         |   2   |  always  |              |     |
-|       Heat metal       |   2   |    x     |              |     |
-|      Invisibility      |   2   |    x     |              |     |
-|   Lesser restoration   |   2   |    x     |              |     |
-|      Faerie fire       |   1   |    x     |              |     |
-|    Hypnotic pattern    |   3   |  always  |              |     |
-|     lightning bolt     |   3   |  always  |              |     |
-|      Dispel Magic      |   3   |    x     |              |     |
-| Protection from Energy |   3   |    x     |              |     |
+|             Name              | Level | Prepared | Conditional? |     |
+| :---------------------------: | :---: | :------: | :----------: | --- |
+|        Dancing lights         |   0   |          |              |     |
+|           Fire Bolt           |   0   |          |              |     |
+|            Mending            |   0   |          |              |     |
+|           Mage Hand           |   0   |          |              |     |
+|         Feather fall          |   1   |    X     |              |     |
+|         Detect Magic          |   1   |          | Y, long rest |     |
+|        Absorb elements        |   1   |    X     |              |     |
+|          False Life           |   1   |    x     |              |     |
+|         Magic Missile         |   1   |  always  |              |     |
+|          thunderwave          |   1   |  always  |              |     |
+|         mirror image          |   2   |  always  |              |     |
+|            shatter            |   2   |  always  |              |     |
+|          Heat metal           |   2   |    x     |              |     |
+|         Invisibility          |   2   |    x     |              |     |
+|      Lesser restoration       |   2   |    x     |              |     |
+|          Faerie fire          |   1   |    x     |              |     |
+|       Hypnotic pattern        |   3   |  always  |              |     |
+|        lightning bolt         |   3   |  always  |              |     |
+|         Dispel Magic          |   3   |    x     |              |     |
+|    Protection from Energy     |   3   |    x     |              |     |
+| Mordenkainens private sanctum |   4   |          |              |     |
+|          Fire shield          |   4   |    X     |              |     |
+|         Greater invis         |   4   |    X     |              |     |
  `button-spell`
  
 
